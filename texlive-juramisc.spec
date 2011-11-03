@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/juramisc
+# catalog-date 2007-11-23 19:34:36 +0100
+# catalog-license lppl
+# catalog-version 0.91
 Name:		texlive-juramisc
 Version:	0.91
 Release:	1
@@ -49,6 +55,7 @@ still under development.
 %doc %{_texmfdistdir}/doc/latex/juramisc/doc/jmgerdoc.pdf
 %doc %{_texmfdistdir}/doc/latex/juramisc/doc/jmgerdoc.tex
 %doc %{_texmfdistdir}/doc/latex/juramisc/doc/jmgerdoc_scr.pdf
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -59,3 +66,5 @@ still under development.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
