@@ -6,7 +6,7 @@
 # catalog-version 0.91
 Name:		texlive-juramisc
 Version:	0.91
-Release:	9
+Release:	10
 Summary:	Typesetting German juridical documents
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/juramisc
