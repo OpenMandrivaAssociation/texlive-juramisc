@@ -1,6 +1,6 @@
 Name:		texlive-juramisc
 Version:	15878
-Release:	1
+Release:	2
 Summary:	Typesetting German juridical documents
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/juramisc
