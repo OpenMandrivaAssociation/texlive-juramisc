@@ -3,7 +3,7 @@ Version:	15878
 Release:	2
 Summary:	Typesetting German juridical documents
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/juramisc
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/juramisc
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/juramisc.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/juramisc.doc.r%{version}.tar.xz
